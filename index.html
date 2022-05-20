@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Validação de CPF</h1>
+  <p id="text1">Através deste simples algoritimo, veremos diversos recursos e habilidades da linguagem JavaScript</p>
+  <form>
+    <div id="cpf">
+      <button type="text">CPF</button>
+      <input type="text" id="numeros" placeholder="Digite seu CPF para validar" >
+    </div>  
+  
+    <p>Digite Somente Números</p>
+  
+    <div id="botao">
+          <button type="button" onclick="validacao()">Validar</button>
+    </div>
+    
+  </form>
+
+  <aside>
+    
+    <div id="sucesso" role="alert" style="display: none;">
+
+      <strong>CPF é válido!</strong>
+      
+    </div>
+
+    <div id="error" role="alert" style="display: none;">
+
+      <strong>CPF NÃO é válido!</strong>
+      
+    </div>
+
+  </aside>
+
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
